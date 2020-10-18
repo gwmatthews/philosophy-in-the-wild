@@ -1,0 +1,81 @@
+# How to Write a Chapter
+
+:::: {.centerpic data-latex=""}
+
+![](img/construction.png){width="50%" alt="illustration"}
+
+
+
+::: {.centercap data-latex=""}
+
+figure caption
+
+:::
+
+::::
+
+::: {.epigraph data-latex=""}
+
+Pithy epigraph.\
+\
+---Wise Person
+:::
+
+::::{.center data-latex=""}
+::: {.argument data-latex=""}
+
+This is a template for writers of chapters. Each chapter consists of a single page like this and has three to five subsections. Open up the file 99-Template.Rmd and save it as a copy to create a new page. Then just replace this text with your own and follow the models for formatting images text boxes links and more.
+
+
+:::
+::::
+
+**_Opening words of sentence_** gets highlighted and everything else is normal.
+
+
+
+
+## Summary {-}
+
+This is an embedded html slideshow. It is an iframe embed and so in principle anything could fit here. Have a look at the css to see the format trick for adjusting proportion to different media. Here the css class is "slideshow." Compare that class to the "video" class -- the principle is the same.
+
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/01-slides.html">
+</iframe>
+:::
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+- [Download slides](https://gwmatthews.github.io/ethics-slideshows/pdf/01-slides.pdf) or [print them](https://gwmatthews.github.io/ethics-slideshows/pdf/01-handout.pdf).
+
+```
+
+
+## Further exploration {-}
+
+- Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called "Justice" that explores material that overlaps with this text. His extensive website [Justice with Michael Sandel](http://justiceharvard.org/){target="_blank"} also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
+
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+  <br>
+  <br>
+  <hr>
+
+
+**Editorial comments**
+
+If you have a GitHub account and want to make any editorial suggestions, please do so here.
+
+<script src="https://utteranc.es/client.js"
+        repo="gwmatthews/ethics"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+```
+
+
+
+

@@ -1,0 +1,11 @@
+book_filename: philosophy-in-the-wild
+output_dir: docs
+graphics: yes
+number_sections: no
+language:
+  label:
+    fig: " "
+    tab: " "
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true

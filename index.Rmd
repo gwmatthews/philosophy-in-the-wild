@@ -1,0 +1,107 @@
+--- 
+title: "Philosophy in the Wild"
+subtitle: "an introduction"
+cover-image: "img/cover.jpg"
+author: "**George W. Matthews**"
+date: "last revised: `r Sys.Date()`"
+description: "An open textbook"
+github-repo: "gwmatthews/philosophy-in-the-wild"
+site: bookdown::bookdown_site
+favicon: "favicon.ico"
+apple-touch-icon: "apple-touch-icon.png"
+classoption: "12pt, openany"
+graphics: yes
+geometry: 'margin=2cm'
+# bibliography: philosophy.bib
+# citation-style: chicago-fullnote-bibliography.csl
+---
+
+# Preface {-}
+
+```{r setup, echo=FALSE, include=FALSE, cache=FALSE}
+knitr::opts_chunk$set(
+  cache = TRUE,
+  dev.args = list(bg = "transparent")
+)
+if (knitr:::is_latex_output()) {
+  options(knitr.table.format = 'pandoc')
+  knitr::opts_chunk$set(dpi = 300)
+}
+```
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+<div style=" width: 80%; margin-left: auto; margin-right: auto;"><img src="img/cover.jpg" alt="Philosophy in the Wild book cover" /></div>
+```
+## Dedication {-}
+
+:::: {.centerpic data-latex=""}
+
+![](img/hongzhi.jpg){width=40%}
+::::
+
+:::: {.epigraph data-latex=""}
+Receive correctly this monk's word-stream, neither frozen nor trickling away, neither transparent nor muddy. When you wring it dry, take advantage of the opportunity; when you enter the bustle, perceive with your whole eye. Thorough understanding and the changing world fulfill each other totally without obstacle. The moon accompanies the current, the wind bends the grass...Find your seat, wear your robe, and go forward and see for yourself.\
+\
+---Hongzhi, *Cultivating the Empty Field* 
+::::
+
+## About this book {-}
+
+**_May you live in interesting times._** This is, probably falsely, claimed to be the second worst ancient Chinese curse one might wish upon one's enemies. (The worst one could wish upon them would be "May you get what you want.") We, it seems pretty obvious, happen to live in such times, when peace, prosperity, and living to a comfortable if slightly boring old age are no longer as assured as they were even one generation ago. But interesting times are not only unsettled, anxiety provoking times. They are also times full of potential since they force us to call into question previously settled assumptions, and to try to look at things in new ways. Thus they also are times when philosophy flourishes, since philosophy at its best is the relentless and highly focused process of questioning assumptions, making distinctions and seeking solid reasons to back up opinions on the most basic level. Philosophy is the attempt to uncover the truth about the nature of reality, our claims to knowledge and what really matters. If this may seem to be an overly abstract and presumptuous activity when everything is going according to plan, it might become a necessity in times of great social change and stress. Interesting times can force us to examine our assumptions precisely because they starkly reveal the weaknesses in those assumptions. In times such as ours, philosophy becomes more and more urgent. That is part of the motivation for this project.
+
+**_However,_** it is often the case that philosophy is presented to those new to the field in two ways that discourage the kind of self-examination that interesting times demand of us. It either gets presented as a collection of historical curiosities, to be examined and explicated in ways more suited to historical artifacts than it is to urgent contemporary issues, or it gets smothered in technicalities as if it were of interest exclusively to a small group of people with the time and inclination to learn a highly abstract and specialized vocabulary and a set of microscopically detailed distinctions. Yes historical and textual accuracy is important in describing the development of philosophical thinking in its long and complex history, and yes it is important to be precise and make more and more distinctions to keep on clarifying what exactly we mean. But, it is also important to keep in mind that philosophical questions, methods and conclusions are also always attempts to address pressing human problems. What CAN we really know about things? What IS the nature of our lives, our deaths and what we might hope for? What SHOULD we really be doing with our all too fleeting time here on this planet? And yes, what does it all mean? 
+
+**_This book is an attempt to scratch two itches._** The first of these is the desire to develop an approach to philosophy that is more directly relevant than other approaches, that shows how philosophical questioning is neither just a historical curiosity, nor a matter only for experts, but is something that makes a difference in our real lives.
+
+**_The second itch_** I am trying to scratch has to do with initiatives in open education, and I'd like this text to contribute in its own small way to the much larger and more influential open source movement and philosophy of which I consider it a part. Knowledge is only ours to share. Yes of course writers, developers and publishers do hard work that deserves compensation. But intellectual property, it seems to me, is a false idol that deserves to be smashed. So here is my effort to chip away at it -- knowledge should free us and and not sink us into both literal and figurative debt.
+
+**_In addition_** the decision to place this text into a [GitHub repository](https://github.com/gwmatthews/philosophy-in-the-wild) should be considered as an invitation for others to participate in its future development. Anyone can fork the repository where it resides and use it as a template for their own book project; offer suggestions for revisions, or contribute in other ways as well. Please use the "issues" section of the repository for making any major suggestions.
+
+
+## Acknowledgements {-}
+
+**_The writing_** and publication of this book would not have been possible without the work of numerous people who make and share their amazing work in the open source software community. It is based in particular on the work of [Yi Hui](https://github.com/yihui) and the other developers of [bookdown](https://github.com/rstudio/bookdown) and [Rstudio](https://rstudio.com/products/rstudio/) and related software. While it has been a bit of a steep learning curve figuring out how to use Rstudio and bookdown to write and style a book, it has been a lot of fun too! The end product, hopefully, speaks for itself and demonstrates that these tools are not just for people with highly technical backgrounds, but can be used by anyone with some computer skills and a bit of patience to create functional, cross-platform and pretty good looking web based books. 
+
+:::: {.center data-latex=""}
+![](img/tux.png){width=50px}
+::::
+
+Icons are by Paul Davey, aka [Mattahan](http://mattahan.deviantart.com). All rights reserved.
+
+
+
+### License CC BY-SA 4.0 {-}
+
+**_This book_** is released under a creative commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. This means that this book can be reused, remixed, retained, revised and redistributed (including commercially) as long as appropriate credit is given to the authors. If you remix, or modify the original version of this open textbook, you must redistribute all versions of this open textbook under the same license.
+
+## How to use this book {-}
+
+### Read it {-}
+
+This should be self-explanatory, but be sure not to miss the icons on the top of the screen which enable you to:
+
+- Open up and close the sidebar with the table of contents in it.
+- Search within the text for a keyword.
+- Change the color scheme or font to make it easier to read.
+- Offer editorial suggestions on GitHub (see below for how this works).
+- Download a pdf version of the text for offline reading or printing.
+- Find out keyboard short cuts for navigation.
+
+Also note the arrows on the side of the screen (or down at the bottom if you are reading on a small screen) that bring you to the next or previous pages.
+
+### Comment on it {-}
+
+If you are a current student in one of my Introduction to Philosophy classes you'll have to do some commenting. When I used WordPress to host this text that was a built in feature. Here I am relying on a third party commenting add-on to the online version of the book. There are many ways to do this, with Disqus being one of the most popular. But we won't be using it since they track users and push lots of advertising. Instead we'll be using a nice tool called Hypothes.is, which [you can find out all about here](#appendix-1).
+
+### Contribute to it {- #contribute}
+
+If you find a mistake, don't think it's clear in some part, have an issue with any part of it, want something more added, etc. I encourage you to contribute. You can do this in a few ways.
+
+- If you have a GitHub account, you can leave a comment in the box at the end of each chapter. That creates an "issue" which others can read or add to as well.
+- You can also contribute more directly as a pull request by clicking on the "edit" button on the top menu bar -- this will take you to the GitHub repository where the source material lives. There you can fork the repository, make whatever edits you want and then offer them in the form of a "pull request." Any such requests will be subject to discussion unless they are minor issues like typos. If you really think I get things all wrong here, fork the book and make it your own! All of this assumes that you:
+  + Know what "git" even is.^[If you don't, it is a version control system that enables collaboration and it mostly intended for software development, but it can be used for working together on any kind of project that involves electronic files, from novels to operating systems.]
+  + Have an account at [GitHub](https://github.com/) -- which is free. And [GitHub pages](https://pages.github.com/) is a great way to get yourself a free website too!
+- Send me an email if you know me in the real world.
+
+
+
