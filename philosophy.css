@@ -1,15 +1,3 @@
-div.argument {
-  padding: 1em 2em 0.5em 2em;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  border-radius: 10px;
-  border: 2px solid #aaa;
-  background-color: #f5f5f5;
-  width: 75%;
-  margin-left:auto;
-  margin-right: auto;
-}
-
 div.passage {
  
    width: 85%;
@@ -20,6 +8,37 @@ div.passage {
   
 }
 
+#preface img {
+  
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 2px 2px 10px gray;
+  
+}
+
+/* text boxes */
+div.argument {
+  padding: 1em 2em 0.5em 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 10px;
+  border: 2px solid #aaa;
+  background-color: #f5f5f5;
+  width: 75%;
+  margin-left:auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 8px gray;
+}
+
+@media (max-width: 700px){
+ div.argument {
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+  box-shadow: none;
+}
+}
+
 div.epigraph {
   width: 85%;
   padding: 20px;
@@ -28,7 +47,7 @@ div.epigraph {
 }
 
 .caution, .important, .note, .tip, .question, .slides, .warning, .example {
-  padding: 0.5em 2em 0 4em;
+  padding: 0.5em 2em 0 3.5em;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
@@ -37,6 +56,25 @@ div.epigraph {
   width: 95%;
   margin-left:auto;
   margin-right: auto;
+  box-shadow: 2px 2px 8px gray;
+}
+
+@media (max-width: 700px){
+.caution, .important, .note, .tip, .question, .slides, .warning, .example {
+  background: #f5f5f5 10px center/1.5rem no-repeat;
+  border: 3px dotted #aaa;
+  box-shadow: none;
+  width: 100%;
+}
+
+.caution ul, .important ul, .note ul, .tip ul, .question ul li, .warning ul, .example ul{
+  margin-top: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal ul {
+    padding: 0 0 0 1em;
+}
+
 }
 
 
@@ -55,26 +93,36 @@ div.epigraph {
 .warning {
   background-image: url("./img/warning.png");
 }
-
 .question {
   background-image: url("./img/question.png");
 }
 
-.book .book-body .page-wrapper .page-inner section.normal blockquote {
+.book .book-body .page-wrapper .page-inner section.normal blockquote, .more {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
   border-left: 5px solid #ccc;
   border-radius: 15px;
   padding: 9px 14px;
 }
 
+.color-theme-2 .argument {
+  color: black;
+}
+
+.color-theme-2 .infobox {
+   color: black;
+}
+
+
+/* center content */
 .center{
   margin: auto;
   }
 
+/* centered image */
 .centerpic{
   margin:auto;
   text-align: center;
@@ -88,6 +136,14 @@ div.epigraph {
   box-shadow: 3px 3px 10px 2px gray;
 }
 
+/*cover image*/
+img[alt="Philosophical Ethics book cover"]{
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+/*font size adjustments*/
 .centercap{
   margin: auto;
   text-align: center;
@@ -100,42 +156,43 @@ div.epigraph {
    text-align: center;
 }
 
-.color-theme-2 .argument {
-  color: black;
-}
-
-.color-theme-2 .infobox {
-   color: black;
-}
-
+/* hide title in preface*/
 #preface > h1 {
   display: none;
 }
 
+/*title styling*/
 .title, .subtitle, .author, .date {
   text-align: center;
 }
 
+/*embedded iframes*/
 .embed {
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 0;
-  padding-bottom: 80%;
+  padding-bottom: 400%;
 }
 
-.embed iframe {
+.embed iframe, {
   position: absolute;
+  margin: 20px;
   width: 100%;
   height: 100%;
   left: 0; top: 0;
+  box-shadow: 2px 2px 8px gray;
+  border-radius: 10px;
 }
 
-.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active>a {
-    color: #00579E;
-}
+@media (max-width: 700px){
+  .embed {
+    width: 90%;
+  }
 
-.book .book-body .page-wrapper .page-inner section.normal a {
-  color: #00579E;
+  .embed iframe {
+      margin: 0;
+      box-shadow: none;
+  }
 }
 
 .slideshow {
@@ -150,13 +207,181 @@ div.epigraph {
   width: 100%;
   height: 100%;
   left: 0; top: 0;
-}
-
-#preface img {
-  
+  box-shadow: 2px 2px 8px gray;
   border-radius: 10px;
-  padding: 12px;
-  box-shadow: 2px 2px 10px gray;
-  
 }
 
+@media (max-width: 700px){
+  .slideshow iframe {
+  border: none;
+  padding: 10px;
+  }
+}
+
+/*slideshow link buttons*/
+.slideshow-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.slideshow-buttons div {
+  padding: 2em 0 0 0;
+}
+
+.slideshow-buttons p {
+  padding: 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.slideshow-buttons p:hover {
+  padding: 10px;
+  background-color: #efeaea;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px gray;
+}
+
+.slideshow-buttons a:hover {
+  text-decoration: none !important;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.widget {
+  padding: 10px;
+  margin: 10px 10px;
+  border: 3px solid gray;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px #666;
+}
+
+
+.video {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+  height: 0;
+  padding-bottom: 70%;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.video iframe{
+
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.video-caption {
+  width: 65%;
+  font-size: 90%;
+  padding: 15px;
+  margin: 20px auto 70px auto;
+  background-color: #eef;
+  border: 2px solid #bbd;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.show-more-text {
+  padding: 1px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  outline: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+ }
+
+ .show-more-text i {
+   color: #888;
+ }
+
+.more-text {
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+  display: none;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+
+.more-text p {
+
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.pullquote {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 4em;
+  border-left: 5px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.pullquote p {
+  margin-top: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.pullquote .pull-right{
+  text-align: right;
+  padding: 2em;
+  margin-top: -3em;
+}
+
+
+@media (max-width: 700px){
+.book .book-body .page-wrapper .page-inner section.normal p{
+  margin-right: 1.5rem;
+  }
+
+.argument p {
+  margin: 0;
+  padding-bottom: 0;
+}
+}
+
+
+.case {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 129%;
+}
+
+.case iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.embedcard {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 1px;
+  margin: 30px;
+}
