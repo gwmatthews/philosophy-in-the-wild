@@ -1,0 +1,83 @@
+# Appendix 1: Using Hypothes.is {- #appendix-1}
+
+#### 1. What is it? {-}
+
+It's an online annotation tool. It lets you take notes in the margins of any web page, highlight text, and make page notes, which are comments on the whole of a web page. You also view and respond to other people's comments and notes in some cases. 
+
+- These notes are yours to keep or delete and nobody can read them unless you allow it.
+  - They can be made *public* so that any other user of Hypothes.is can see them and respond to them.
+  - They can be *private* so only you can see them.
+  - They can be *shared with a group* so that only members of that group can see or respond to them.
+
+- They can (and should) be organized by key words (tags) so that you can keep track of all of your notes and the pages you have taken notes on for your research, or for personal use.
+
+- You can use it for your other classes too. All of your notes will be available for you to see organized by tags, pages and groups on the Hypothes.is website.
+
+#### 2. Sounds awesome, but what's the catch?  {-}
+
+There is none. Hypothes.is is run by a non-profit on a mission to encourage note taking and discussion on the web. They are most likely people who read books and write stuff in the margins. You know the type. You don't want to buy used books from them.
+
+This is not a tool for collecting data about you and selling it to advertisers -- they respect privacy and you can read [the Hypothes.is privacy policy here](https://web.hypothes.is/privacy/). It is a free service. This system is supported by grants and by institutions that sign up for paid versions for their own uses. It is free for use by educators and students. You will need to register, but all you will need to do this is provide an email address so they can verify that you are not a spambot. 
+
+Please read the [privacy policy](https://web.hypothes.is/privacy/), [terms of service](https://web.hypothes.is/terms-of-service/) and [community guidelines](https://web.hypothes.is/community-guidelines/) for more information if you like.
+
+#### 3. How to use it. {-}
+
+- Some websites, like this one, have it built in. You may have noticed the funny icons in the upper right corner of the pages of this book. If you click the arrow the Hypothes.is tool slides out.
+
+- There is also a Chrome extension for those of you using the Chrome browser. If you install this extension you'll open it by clicking on a symbol on the top bar of your browser.
+
+- Finally there is a special kind of bookmark called a "bookmarklet" that you can save for use in your browser. That creates a link that you can just click  anytime you want to take notes on a page you are reading. If you don't use Chrome this will be what you want. 
+
+- **NOTE:** since most pages don't have Hypothes.is built in you'll have to use one of these last two methods to use it on other websites.
+
+
+:::{.note data-latex="" .infobox}
+
+**Special note for using on a phone:**  Except for when commenting on websites like this that have the Hypothes.is tool built in, you have to do things a little different on a phone. All you have to do is copy the web address of the page you want to annotate and then [go to this page](https://via.hypothes.is/) and paste it in the box. That runs the page through the Hypothes.is server and let's you add your own notes.
+
+:::
+
+#### 4. Getting started {-}
+
+- Go to the Hypothes.is ["Start Here" page](https://web.hypothes.is/start/) and follow the instructions.
+
+- You'll have to register and either get the Chrome extension or save the bookmarklet. It's simple. **Please pick a username that makes it easy for me to figure out who you are for grading purposes.** "John_Doe" or "J-Doe" is good, "jr435d" is not. 
+
+- Next you should join the private group Philosophy-PCT-SP-2021 by clicking on the link in the welcome announcement and welcome page on the PLATO site.
+
+- Finally come back to this to this site and post an annotation anywhere on the site AND **to the philosophy group** you just joined.
+
+
+#### 5. More Details
+
+
+**_Step one, login:_** Click the arrow on the top right of the screen to open up the Hypothes.is tool, then click where it says "Login." Enter your ID (most likely your email address) and password. If you haven't registered yet go to the [start Here page](https://web.hypothes.is/start/), follow the instructions then come back to this step.
+
+
+**_Step two,  pick the right group:_** On the top edge of the tool click the drop-down menu that says "Public" and then switch that to the Ethics\@PCT group. (You can organize your other annotations for other classes by creating a new private group with only you as a member and post things to those groups instead, but that won't count for this class.) If you ever mistakenly post something as "public" or to the wrong group you can always change it later. You can also edit notes already published, delete them or whatever.
+
+
+**_Step three,  highlight some text:_** Use your mouse or touch screen to select some text by clicking and dragging over it. If Hypothes.is is active you'll see the text highlighted in blue with two choices below, "annotate" and "highlight." Select "annotate" and the sidebar will come out with a box for typing in your note. 
+
+
+**_Step four, write a note:_** Write what you want, but do recognize that all of us in this course will be able to read it. Please write in complete sentences and write clearly! You can even add images or videos to your annotations.
+
+
+**_Step five, add the tag "assignment one":_** To complete this assignment, you'll need to add this exact tag without the quotes. To add a tag just type the words in the tags box, no \# sign needed. Spaces are allowed, hit `Enter` to complete the tag. I highly recommend tagging all notes so you can find them later. You can use your own tags to organize your notes. After this assignment you can use whatever tags you want. I'll see all of your comments under the group listing as long as they are posted to the group, so be sure to do that. To make it easier to see what other people have been posting to the group, there will be a link to the group page in every section of the course. (I'd put it here, but it would enable anybody to join the group, which we don't want.)
+
+
+**_Step six, save note to group:_** This makes your note visible to everyone in the group and nobody else. Everyone in the group will be also able to respond to this note.
+
+**_Step seven, go to your Hypothes.is page to verify that you did it right:_** Not strictly necessary for other note taking, but do this now so you can see what's there. This is your collection of notes which can be filtered by tags, groups, etc. To get there click the person icon in the Hyothes.is tool and then your user name. That takes you to your Hypothes.is page. You'll have to do two comments every week, for a total of 30 all semester so that is a good place to go to see how many comments you have made at any point. You can also go from your profile page to the group list so you can see what others have been posting on.
+
+
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+#### A short video tutorial {-}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e235JwmmEcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+```

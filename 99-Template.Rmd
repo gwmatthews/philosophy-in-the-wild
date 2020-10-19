@@ -83,7 +83,7 @@ Click on the <i class="fa fa-edit"></i> symbol above to go to the source reposit
 
 ## Summary {-}
 
-This is an embedded html slideshow. It is an iframe embed and so in principle anything could fit here. Have a look at the css to see the format trick for adjusting proportion to different media. Here the css class is "slideshow." Compare that class to the "video" class -- the principle is the same.
+This is an embedded html slideshow. It is an iframe embed and so in principle anything could fit here. Have a look at the css file [philosophy.css](philosophy.css) to see the formatting trick for adjusting proportion to different media. Here the css class is "slideshow." Compare that class to the "video" class -- the principle is the same.
 
 :::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-handout.pdf}{printed}."}
 <iframe src="https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html">
@@ -99,7 +99,7 @@ This is an embedded html slideshow. It is an iframe embed and so in principle an
 
 ## Further exploration {-}
 
-- External resources including videos can be embedded directly in a page. See 99-Template.Rmd for the source code. It should be obvious where to out the address of the video you want.
+- External resources including videos can be embedded directly in a page. See 99-Template.Rmd for the source code. It should be obvious where to put the address of the video you want.
 
 
 
