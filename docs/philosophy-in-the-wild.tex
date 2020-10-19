@@ -634,8 +634,8 @@ Take as an example the enormous and persistent backlash against Darwin's theory 
 \hypertarget{representation-and-social-conflict}{%
 \section{Representation and Social Conflict}\label{representation-and-social-conflict}}
 
-\hypertarget{how-to-write-a-chapter}{%
-\chapter{How to Write a Chapter}\label{how-to-write-a-chapter}}
+\hypertarget{how-to-contribute}{%
+\chapter{How to Contribute}\label{how-to-contribute}}
 
 \begin{centerpic}
 
@@ -661,22 +661,63 @@ Pithy epigraph.\\
 
 \begin{argument}
 
-This is a template for writers of chapters. Each chapter consists of a single page like this and has three to five subsections. If you'd like to create a new chapter open up the file 99-Template.Rmd and save it as a copy to create a new page. Chapters are ordered by number with 08-your-title being the next available. They can easily be re-ordered by changing the numbers in their filenames. If you would like to contribute content to an existing page keep reading.
+Each chapter consists of a single page like this and has three to five subsections. If you'd like to create a new chapter open up the file 99-Template.Rmd and save it as a copy to create a new page. Chapters are ordered by number with 08-your-title being the next available. They can easily be re-ordered by changing the numbers in their filenames. If you would like to contribute content to an existing page keep reading.
 
 \end{argument}
 
 \end{center}
 
+\hypertarget{sections}{%
+\section{Sections}\label{sections}}
+
+Sections are created with \texttt{\#\#} followed by the Title of the section on its own line.
+
+\hypertarget{subsections-can-be-numbered}{%
+\subsection{Subsections can be numbered}\label{subsections-can-be-numbered}}
+
+\texttt{\#\#\#\ Subsections\ can\ be\ numbered}
+
+\hypertarget{or-unnumbered}{%
+\subsection*{Or Unnumbered}\label{or-unnumbered}}
+
+
+\texttt{\#\#\#\ Or\ Unnumbered\ \{-\}}
+
 \textbf{\emph{Opening words of sentence}} gets highlighted and everything else is normal.
 
-\hypertarget{contributing}{%
-\subsection{Contributing}\label{contributing}}
+\hypertarget{contributing-to-an-existing-chapter}{%
+\section{Contributing to an Existing Chapter}\label{contributing-to-an-existing-chapter}}
 
 At this point this work is a skeleton that needs to be fleshed out in most places. I have built the basic narrative framework -- the basic topics and questions I want to deal with and the order and organization that they all fit into. This takes the form of section and subsection headings along with embedded slideshows, external articles I will begin to embed and comment on.
 
 You can contribute if you can flesh out any of the content -- explanatory and exploratory text, your understanding of the basic issues at stake and the main lines of argument available to advocates and critics of any given approach. I have a basic understanding of the logic of the various topics I have outlined here but am willing to discuss anything you think gets to the heart of the matter! In other words the low level organization is subject to revise as the need arises.
 
-If you want to contribute dive in, clone the repository and make some pull requests. Those new to git, never fear, git is a simple and powerful version control system that enables us to easily keep track of changes we make to a collectively built set of documents. Each contributor works on their own ``clone'' of the original, creating changes locally on their computer and offering them to the project as suggestions. If they are agreed upon as good additions they are included updating the ``master'' to reflect the new version. A more detailed and well written how to use \href{https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6}{git tutorial can be found here}.
+If you want to contribute dive in, clone the repository and make some pull requests. Those new to git, never fear, git is a simple and powerful version control system that enables us to easily keep track of changes we make to a collectively built set of documents. Each contributor works on their own ``clone'' of the original, creating changes locally on their computer and offering them to the project as suggestions. If they are agreed upon as good additions they are included updating the ``master'' to reflect the new version.
+
+\begin{itemize}
+\tightlist
+\item
+  A more detailed and well written tutorial \href{https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6}{on using git can be found here}.
+\end{itemize}
+
+\hypertarget{software-tools}{%
+\subsection{Software Tools}\label{software-tools}}
+
+This book is written in Rmarkdown using the RStudio IDE. RStudio is a free and Open Source development environment for doing data science with the R programming language, but also for \textbf{publishing} results. It is a robust and easy to use desktop publishing system that generates both web and print versions of a textbook quickly and efficiently with as much or as little customization desired. Authors write in markdown, an efficient and simple set of conventions for formatting text and Rstudio builds an html and pdf version of the text. The whole thing is hosted at github -- source code and everything needed to write \textbf{and publish for free} your own book, or contribute to this one.
+
+Of course there are great books on how to use Rstudio and rmarkdown written using this system and available for free:
+
+\begin{itemize}
+\item
+  \href{https://bookdown.org/yihui/bookdown/}{Bookdown}: Authoring Books and Technical Documents in Rmarkdown. This is the main source of documentation to use. It spells out in a step by step way all you need to know about writing, building and publishing using bookdown.
+\item
+  \href{https://crumplab.github.io/OER_bookdown/}{Open Tools for Writing Open and Interactive Textbooks}: a braoder but also helpful view.
+\end{itemize}
+
+\hypertarget{lower-tech-methods}{%
+\subsection{Lower Tech Methods}\label{lower-tech-methods}}
+
+Everything is written as text files. Edit things as you see fit in your editor of choice. Rstudio is nice if you are worried about how the pieces of the whole project fit together, but is not needed by contributors. You can add content in any text editor then submit a pull request and it will get built in.
 
 \hypertarget{summary}{%
 \section*{Summary}\label{summary}}
@@ -684,7 +725,7 @@ If you want to contribute dive in, clone the repository and make some pull reque
 
 This is an embedded html slideshow. It is an iframe embed and so in principle anything could fit here. Have a look at the css to see the format trick for adjusting proportion to different media. Here the css class is ``slideshow.'' Compare that class to the ``video'' class -- the principle is the same.
 
-\begin{slideshow}Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-handout.pdf}{printed}.
+\begin{slideshow}Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/01-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/01-phl210-handout.pdf}{printed}.
 
 \end{slideshow}
 
@@ -695,7 +736,7 @@ This is an embedded html slideshow. It is an iframe embed and so in principle an
 \begin{itemize}
 \tightlist
 \item
-  Michael Sandel is a philosophy professor at Harvard who teaches a very popular course called ``Justice'' that explores material that overlaps with this text. His extensive website \href{http://justiceharvard.org/}{Justice with Michael Sandel} also has videos of his lectures from that course the first of which focuses on the famous runaway trolley example.
+  External resources including videos can be embedded directly in a page. See 99-Template.Rmd for the source code. It should be obvious where to out the address of the video you want.
 \end{itemize}
 
 \end{document}
