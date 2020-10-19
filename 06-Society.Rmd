@@ -12,6 +12,17 @@
 
 ### Racism and Fear of the Other
 
+This is an example of an embedded article. The widget is from [embedly](https://embed.ly/code).
+
+```{asis, echo=identical(knitr:::pandoc_to(), 'html')}
+
+  <div class="embed">
+ <blockquote class="embedly-card"><h4><a href="https://www.theguardian.com/us-news/2020/oct/19/cornel-west-george-floyds-public-lynching-pulled-the-cover-off-who-we-really-are">Cornel West: 'George Floyd's public lynching pulled the cover off who we really are'</a></h4><p>Cornel West is a thinker. Readers of Prospect magazine recently voted him the world's fourth-best thinker. And right now he is thinking about 3 November, and whether the United States will reject or endorse Donald Trump. No one knows what will happen; not even West, not least because in the US he sees contradictions that even he can't fully explain.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+  </div>
+  
+```
+
 ### Gender, Sexuality, Identity
 
 ### Imaginary Homelands
