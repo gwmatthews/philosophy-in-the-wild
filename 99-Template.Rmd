@@ -24,13 +24,22 @@ Pithy epigraph.\
 ::::{.center data-latex=""}
 ::: {.argument data-latex=""}
 
-This is a template for writers of chapters. Each chapter consists of a single page like this and has three to five subsections. Open up the file 99-Template.Rmd and save it as a copy to create a new page. Then just replace this text with your own and follow the models for formatting images text boxes links and more.
+This is a template for writers of chapters. Each chapter consists of a single page like this and has three to five subsections. If you'd like to create a new chapter open up the file 99-Template.Rmd and save it as a copy to create a new page. Chapters are ordered by number with 08-your-title being the next available. They can easily be re-ordered by changing the numbers in their filenames. If you would like to contribute content to an existing page keep reading.
 
 
 :::
 ::::
 
 **_Opening words of sentence_** gets highlighted and everything else is normal.
+
+
+### Contributing
+
+At this point  this work is a skeleton that needs to be fleshed out in most places. I have built the basic narrative framework -- the basic topics and questions I want to deal with and the order and organization that they all fit into. This takes the form of section and subsection headings along with embedded slideshows, external articles I will begin to embed and comment on.
+
+You can contribute if you can flesh out any of the content -- explanatory and exploratory text, your understanding of the basic issues at stake and the main lines of argument available to advocates and critics of any given approach. I have a basic understanding of the logic of the various topics I have outlined here but am willing to discuss anything you think gets to the heart of the matter! In other words the low level organization is subject to revise as the need arises. 
+
+If you want to contribute dive in, clone the repository and make some pull requests. Those new to git, never fear, git is a simple and powerful version control system that enables us to easily keep track of changes we make to a collectively built set of documents. Each contributor works on their own "clone" of the original, creating changes locally on their computer and offering them to the project as suggestions. If they are agreed upon as good additions they are included updating the "master" to reflect the new version. A more detailed and well written how to use [git tutorial can be found here](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6).
 
 
 

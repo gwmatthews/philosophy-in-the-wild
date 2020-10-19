@@ -4,7 +4,17 @@
 
 ### When Push Comes to Shove: relativism in Theory and Practice
 
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/04-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/04-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/04-phl210-slides.html" width="100%">
+</iframe>
+:::
+
 ### Religion and the Question of Foundations
+
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/05-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/05-phl210-slides.html" width="100%">
+</iframe>
+:::
 
 ### Cultural Universals?
 
@@ -14,14 +24,37 @@
 
 ### In Defense of Capitalism
 
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/06-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/06-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/06-phl210-slides.html" width="100%">
+</iframe>
+:::
+
 ### Self, Other and Ethics
 
 ## Expanding the Circle
 
 ### The Common Good
 
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/08-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/08-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/08-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/08-phl210-slides.html" width="100%">
+</iframe>
+:::
+
 ### Human Rights: The Universal Realized
 
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/ethics-slideshows/09-phl210-slides.html}{viewed online}, \href{https://gwmatthews.github.io/ethics-slideshows/pdf/09-phl210-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/ethics-slideshows/pdf/02-phl210-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/ethics-slideshows/09-phl210-slides.html" width="100%">
+</iframe>
+:::
+
 ### Expanding the Horizon
+
+
+### Slideshow Summary {-}
+
+:::{.slideshow  data-latex="Here is a slideshow summary which can be \href{https://gwmatthews.github.io/philosophy-slideshows/03-phl110-slides.html}{viewed online}, \href{https://gwmatthews.github.io/philosophy-slideshows/pdf/03-phl110-slides.pdf}{downloaded} or \href{https://gwmatthews.github.io/philosophy-slideshows/pdf/03-phl110-handout.pdf}{printed}."}
+<iframe src="https://gwmatthews.github.io/philosophy-slideshows/03-phl110-slides.html" width="100%">
+</iframe>
+:::
 
 
