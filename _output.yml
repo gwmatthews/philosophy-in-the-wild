@@ -14,7 +14,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
     download: [pdf]
-    edit: https://github.com/gwmatthews/ethics/blob/master/%s
+    edit: https://github.com/gwmatthews/philosophy-in-the-wild/blob/master/%s
     sharing: no
 bookdown::pdf_book:
   includes:
