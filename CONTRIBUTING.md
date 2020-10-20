@@ -1,5 +1,5 @@
 This project is open ended and this includes contributions. 
-If you see fit to contribute in some way please do! Do check out the code of conduct which basically calls for this place to be welcoming, open and inclusive. 
+If you see fit to contribute in some way please do! Do check out the [code of conduct](https://github.com/gwmatthews/philosophy-in-the-wild/blob/master/CODE_OF_CONDUCT.md) which basically calls for this place to be welcoming, open and inclusive. 
 Do keep in mind that philosophers tend to be argumentative. But they are, or should still be, kind.
 
 Some particular ways to contribute are:
